@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pedido de Bolo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Pedido de Bolo</h1>
+    </header>
+
+    <main>
+      <form action="">
+        <h2>Escolha seu bolo</h2>
+        <select id="cake-select">
+          <option value="Bolos de Chocolate">Bolo de Chocolate</option>
+          <option value="Bolos de Banana">Bolo de Banana</option>
+          <option value="Bolos de Morango">Bolo de Morango</option>
+          <option value="Bolos Napoleon">Bolo Napoleon</option>
+        </select>
+
+        <h2>Quantidade</h2>
+        <input type="number" id="quantity-input" value="1">
+
+        <h2>Informações de entrega</h2>
+        <input type="text" id="delivery-name" placeholder="Nome">
+        <input type="text" id="delivery-address" placeholder="Endereço">
+        <div id="results">
+        </div>
+        <button type="submit">Enviar Pedido</button>
+      </form>
+      
+
+    </main>
+    <footer>
+      <p>&copy; 2023 - Pedido de Bolo</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
